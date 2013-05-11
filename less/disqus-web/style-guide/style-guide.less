@@ -2,9 +2,45 @@
  * Style-guide
  */
 
+// Core variables and mixins
+@import "../../disqus-core/variables.less";
+@import "../../bootstrap/mixins.less";
+
 // Navigation
 .fixed-sidebar {
 	&.affix {
 		top: 20px;
 	}
+}
+
+// Color swatches
+.swatch {
+	.square(125px);
+	text-align: center;
+	padding-top: 52px;
+	color: white;
+
+	&.swatch_gray-darker {
+		background: @gray-darker;
+	}
+
+	&.swatch_gray-dark {
+		background: @gray-dark;
+	}
+
+	&.swatch_gray {
+		background: @gray;
+	}
+
+	&.swatch_gray_light {
+		background: @gray-light;
+		color: @gray-dark;
+
+	}
+
+	&.swatch_gray_lighter {
+		background: @gray-lighter;
+		color: @gray-dark;
+	}
+
 }

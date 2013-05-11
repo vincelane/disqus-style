@@ -10,6 +10,11 @@ function positionSidebar() {
 	fixedSidebar.css("width", sidebarWidth);
 }
 
+$('.fixed-sidebar ul li a').bind('click', function(e) {
+   e.preventDefault();
+   $('html, body').animate({ scrollTop: $(this.hash).offset().top }, 1000);
+});
+
 $(document).ready(function () {
 	positionSidebar();
 	//$('body').scrollspy()
