@@ -94,6 +94,25 @@
 	text-align: center;
 	color: white;
 
+	.variable {
+		display: none;
+	}
+
+	.hex {
+		display: block;
+	}
+
+	&:hover {
+		.variable {
+			display: block;
+		}
+		.hex {
+			display: none;
+		}
+	}
+
+	
+
 	&.swatch_gray-darker {
 		background: @gray-darker;
 	}
