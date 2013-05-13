@@ -8,6 +8,7 @@
     <link rel="shortcut icon" href="http://mediacdn.disqus.com/1368117464/img/favicon16-32.ico" type="image/vnd.microsoft.icon">
     <link rel="stylesheet" href="build/css/disqus-web.css">
     <link rel="stylesheet" href="build/css/style-guide.css">
+    <link rel="stylesheet" href="build/css/prettify.css">
   </head>
   <body data-spy="scroll" data-target=".fixed-sidebar">
     
@@ -24,7 +25,7 @@
     </div>
 
     <div>
-      <div class="page-header">
+      <div class="page-header hidden">
         <div class="container">
           <h1>Brand &amp; Style Guide</h1>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam nec nulla sed leo porttitor accumsan. Sed tristique dapibus euismod. Aliquam eu metus accumsan lacus viverra dapibus. Praesent blandit, ligula id molestie consequat, nisl lectus posuere orci, et lacinia nibh lacus vitae nisl.</p>
@@ -35,70 +36,116 @@
     <div class="container">
       <div class="row">
         <div class="col col-lg-9">
-          <section id="color">
-            <h3>Color swatches</h3>
-            <h4>Grays</h4>
-            
-            <div class="row">
-              <div class="col col-lg-3">
-                <figure class="swatch swatch_gray-darker img-circle">test</figure>
-              </div>
-              <div class="col col-lg-3">
-                <figure class="swatch swatch_gray-dark img-circle">test</figure>
-              </div>
-              <div class="col col-lg-3">
-                <figure class="swatch swatch_gray img-circle">test</figure>
-              </div>
-              <div class="col col-lg-3">
-                <figure class="swatch swatch_gray_light img-circle">test</figure>
-              </div>
-            </div><!--/.row (nested)-->
 
-            <div class="row">
-              <div class="col col-lg-3">
-                <figure class="swatch swatch_gray_lighter img-circle">test</figure>
-              </div>
-            </div><!--/.row (nested)-->
+          <!--Colors-->
+          <section id="color" class="category">
+            <h1>Color swatches</h1>
+            <section class="component">
+              <ul class="color-list">
+                <li>
+                  <figure class="swatch swatch_gray-darker img-circle">test</figure>
+                </li>
+                <li>
+                  <figure class="swatch swatch_gray-dark img-circle">test</figure>
+                </li>
+                <li>
+                  <figure class="swatch swatch_gray img-circle">test</figure>
+                </li>
+                <li>
+                  <figure class="swatch swatch_gray_light img-circle">test</figure>
+                </li>
+                <li>
+                  <figure class="swatch swatch_gray_lighter img-circle">test</figure>
+                </li>
+              </ul>
+
+              <ul class="color-list">
+                <li>
+                  <figure class="swatch swatch_blue img-circle">#2e9fff</figure>
+                </li>
+                <li>
+                  <figure class="swatch swatch_green img-circle">#4bad05</figure>
+                </li>
+                <li>
+                  <figure class="swatch swatch_yellow img-circle">#ffc62e</figure>
+                </li>
+                <li>
+                  <figure class="swatch swatch_orange img-circle">#fe622d</figure>
+                </li>
+                <li>
+                  <figure class="swatch swatch_red img-circle">#fe2d46</figure>
+                </li>
+              </ul>
+
+            </section>
 
           </section>
 
-          <section id="typography">
-            <h3>Typography</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam nec nulla sed leo porttitor accumsan. Sed tristique dapibus euismod. Aliquam eu metus accumsan lacus viverra dapibus. Praesent blandit, ligula id molestie consequat, nisl lectus posuere orci, et lacinia nibh lacus vitae nisl.</p>
+          <!--Typography-->
+          <section id="typography" class="category">
+            <h1>Typography</h1>
+            <section class="component">
+              <h2>Headings</h2>
+              <div class="example">
+                <h1 class="page-header">Page header</h1>
+                <h1>Heading 1</h1>
+                <h2>Heading 2</h1>
+                <h3>Heading 3</h1>
+                <h4>Heading 4</h1>
+                <h5>Heading 5</h1>
+                <h6>Heading 6</h1>
+              </div>
+              <pre class="prettyprint linenums">
+                <code>
+                  Code here
+                </code>
+              </pre>
+            </section>
 
-              <p>Nulla sodales sapien mauris. Phasellus porta, ligula vitae faucibus convallis, eros sapien placerat erat, quis congue diam dui eget metus. In tempus ornare diam, quis vehicula mi rhoncus ac. Curabitur pulvinar massa a est egestas pharetra ut quis augue. Sed cursus, dolor in pretium vehicula, ligula lorem posuere justo, ut porta est tortor nec tellus.</p>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam nec nulla sed leo porttitor accumsan. Sed tristique dapibus euismod. Aliquam eu metus accumsan lacus viverra dapibus. Praesent blandit, ligula id molestie consequat, nisl lectus posuere orci, et lacinia nibh lacus vitae nisl.</p>
+            <!--Body copy-->
+            <section class="component">
+              <h2>Body copy</h2>
+              <div class="example">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam nec nulla sed leo porttitor accumsan. Sed tristique dapibus euismod. Aliquam eu metus accumsan lacus viverra dapibus. Praesent blandit, ligula id molestie consequat, nisl lectus posuere orci, et lacinia nibh lacus vitae nisl.</p>
 
-              <p>Nulla sodales sapien mauris. Phasellus porta, ligula vitae faucibus convallis, eros sapien placerat erat, quis congue diam dui eget metus. In tempus ornare diam, quis vehicula mi rhoncus ac. Curabitur pulvinar massa a est egestas pharetra ut quis augue. Sed cursus, dolor in pretium vehicula, ligula lorem posuere justo, ut porta est tortor nec tellus.</p>
-              
-              <p>Nulla sodales sapien mauris. Phasellus porta, ligula vitae faucibus convallis, eros sapien placerat erat, quis congue diam dui eget metus. In tempus ornare diam, quis vehicula mi rhoncus ac. Curabitur pulvinar massa a est egestas pharetra ut quis augue. Sed cursus, dolor in pretium vehicula, ligula lorem posuere justo, ut porta est tortor nec tellus.</p>
+                <p>Nulla sodales sapien mauris. Phasellus porta, ligula vitae faucibus convallis, eros sapien placerat erat, quis congue diam dui eget metus. In tempus ornare diam, quis vehicula mi rhoncus ac. Curabitur pulvinar massa a est egestas pharetra ut quis augue. Sed cursus, dolor in pretium vehicula, ligula lorem posuere justo, ut porta est tortor nec tellus.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam nec nulla sed leo porttitor accumsan. Sed tristique dapibus euismod. Aliquam eu metus accumsan lacus viverra dapibus. Praesent blandit, ligula id molestie consequat, nisl lectus posuere orci, et lacinia nibh lacus vitae nisl.</p>
+              </div>
+              <pre class="prettyprint linenums">
+                <code>
+                  Code here
+                </code>
+              </pre>
+            </section>
           </section>
 
-          <section id="logo">
-            <h3>Logo</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam nec nulla sed leo porttitor accumsan. Sed tristique dapibus euismod. Aliquam eu metus accumsan lacus viverra dapibus. Praesent blandit, ligula id molestie consequat, nisl lectus posuere orci, et lacinia nibh lacus vitae nisl.</p>
-
-              <p>Nulla sodales sapien mauris. Phasellus porta, ligula vitae faucibus convallis, eros sapien placerat erat, quis congue diam dui eget metus. In tempus ornare diam, quis vehicula mi rhoncus ac. Curabitur pulvinar massa a est egestas pharetra ut quis augue. Sed cursus, dolor in pretium vehicula, ligula lorem posuere justo, ut porta est tortor nec tellus.</p>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam nec nulla sed leo porttitor accumsan. Sed tristique dapibus euismod. Aliquam eu metus accumsan lacus viverra dapibus. Praesent blandit, ligula id molestie consequat, nisl lectus posuere orci, et lacinia nibh lacus vitae nisl.</p>
-
-              <p>Nulla sodales sapien mauris. Phasellus porta, ligula vitae faucibus convallis, eros sapien placerat erat, quis congue diam dui eget metus. In tempus ornare diam, quis vehicula mi rhoncus ac. Curabitur pulvinar massa a est egestas pharetra ut quis augue. Sed cursus, dolor in pretium vehicula, ligula lorem posuere justo, ut porta est tortor nec tellus.</p>
-              
-              <p>Nulla sodales sapien mauris. Phasellus porta, ligula vitae faucibus convallis, eros sapien placerat erat, quis congue diam dui eget metus. In tempus ornare diam, quis vehicula mi rhoncus ac. Curabitur pulvinar massa a est egestas pharetra ut quis augue. Sed cursus, dolor in pretium vehicula, ligula lorem posuere justo, ut porta est tortor nec tellus.</p>
+          <!--Logo-->
+          <section id="logo" class="category">
+            <h1>Logo</h1>
+            <section class="component">
+              <div class="example">
+                <p>Logo here</p>
+              </div>
+              <pre class="prettyprint linenums">
+                <code>
+                  Code here
+                </code>
+              </pre>
+            </section>
           </section>
 
         </div><!--/.col-->
 
-        <div class="col col-lg-3">
+        <nav class="local-nav col col-lg-3">
           <div class="fixed-sidebar" data-spy="affix">
-            
             <ul class="nav nav-pills nav-stacked sidenav">
               <li class="active"><a href="#color">Color</a></li>
-              <li><a href="#typography">Typography</a></li>            
+              <li><a href="#typography">Typography</a></li>
               <li><a href="#logo">Logo</a></li>            
             </ul>
 
           </div>
-        </div>
+        </nav>
 
       </div><!--/.row-->
     </div><!--/.container-->
@@ -107,6 +154,7 @@
     <script src="js/vendor/bootstrap/bootstrap-affix.js"></script>
     <script src="js/vendor/bootstrap/bootstrap-scrollspy.js"></script>
     <script src="js/disqus-core/disqus-core.js"></script>
+    <script src="js/disqus-web/style-guide/prettify.js"></script>
 
     <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
   </body>

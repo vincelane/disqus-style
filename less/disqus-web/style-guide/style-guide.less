@@ -13,11 +13,43 @@
 	}
 }
 
+// Adds padding to align top flush with main content
+.local-nav {
+	margin-top: 3.5em;
+}
+
+// Possibly make this its own component?
+.nav-stacked {
+	> li {
+		> a {
+			padding: .9em 1.5em;
+			line-height: 1em;
+			.border-radius(200px);
+			.transition(.15s all);
+		}
+	}
+}
+
 // Color swatches
+
+.color-list {
+	list-style: none;
+	width: 100%;
+	margin-left: 0;
+	padding: 0;
+	text-align: center;
+	li {
+		display: inline-block;
+		width: 19.5%;
+	}
+}
+
 .swatch {
 	.square(125px);
-	text-align: center;
+	display: inline-block;
+	margin-top: 1em;
 	padding-top: 52px;
+	text-align: center;
 	color: white;
 
 	&.swatch_gray-darker {
@@ -35,7 +67,6 @@
 	&.swatch_gray_light {
 		background: @gray-light;
 		color: @gray-dark;
-
 	}
 
 	&.swatch_gray_lighter {
@@ -43,4 +74,86 @@
 		color: @gray-dark;
 	}
 
+	&.swatch_blue {
+		background: @blue;
+		color: @white;
+	}
+
+	&.swatch_green {
+		background: @green;
+		color: @white;
+	}
+
+	&.swatch_yellow {
+		background: @yellow;
+		color: @white;
+	}
+
+	&.swatch_orange {
+		background: @orange;
+		color: @white;
+	}
+
+	&.swatch_red {
+		background: @red;
+		color: @white;
+	}
+
+}
+
+// Reusable Elements
+
+section > h1 {
+	padding-bottom: .5em;
+	color: @gray-dark;
+	font-weight: 200;
+	border-bottom: 2px solid @gray-lighter;
+}
+
+section h2 {
+	font-size: 28px;
+}
+
+.category {
+	margin-top: 3em;
+}
+
+.component {
+	padding: 1em 0;
+	.example {
+		position: relative;
+		padding: 39px 19px 14px;
+		background-color: white;
+		border: 1px solid @gray-light;
+		.border-radius(2px 2px 0 0);
+		&:after {
+			content: "Example";
+			position: absolute;
+			top: -1px;
+			left: -1px;
+			padding: 3px 7px;
+			font-size: 12px;
+			font-weight: bold;
+			background-color: @gray-lightest;
+			border: 1px solid @gray-light;
+			color: @gray;
+			.border-radius(2px 0 2px 0);
+		}
+	}
+	pre {
+		display: block;
+		padding: 9.5px;
+		margin: 0 0 10px;
+		font-size: 13px;
+		line-height: 20px;
+		word-break: break-all;
+		word-wrap: break-word;
+		white-space: pre;
+		white-space: pre-wrap;
+		background-color: @gray-lightest;
+		border: 1px solid @gray-light;
+		border-top: none;
+		.border-radius(0 0 2px 2px);
+		.box-shadow(none);
+	}
 }
