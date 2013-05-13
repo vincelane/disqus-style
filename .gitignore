@@ -11,12 +11,6 @@
 *.xcworkspace
 xcuserdata
 
-# Build products
-build/
-*.o
-*.LinkFileList
-*.hmap
-
 # Automatic backup files
 *~.nib/
 *.swp
