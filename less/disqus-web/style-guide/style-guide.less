@@ -162,6 +162,46 @@
 
 }
 
+// Icons
+
+.icon-list {
+	list-style: none;
+	width: 100%;
+	margin-left: 0;
+	padding: 0;
+	li {
+		display: inline-block;
+		width: 15%;
+		margin: .2em 1em;
+		text-align: center;
+
+		&:hover {
+			.class-name {
+				.opacity(1);
+			}
+		}
+
+		.icon {
+			height: 2em;
+			display: block;
+			padding: .5em 0;
+			background: @gray-lighter;
+			color: @gray-dark;
+			.border-radius(3px 3px 0 0);
+		}
+		.class-name {
+			display: block;
+			.opacity(0);
+			margin-bottom: .5em;
+			padding: .25em 0;
+			background: @gray-light;
+			color: @gray-darker;
+			.border-radius(0 0 3px 3px);
+			.transition(.2s all);
+		}
+	}
+}
+
 // Reusable Elements
 
 section > h1 {

@@ -1,0 +1,134 @@
+@font-face {
+  font-family: "embed-icons";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../../font/embed-icons.eot");
+  src: url("../../font/embed-icons.woff") format("woff");
+  src: url("../../font/embed-icons.ttf") format("truetype");
+  src: url("../../font/embed-icons.svg") format("svg");
+}
+.icon {
+  font-family: 'embed-icons';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  font-size: 28px;
+}
+.icon.forward:before {
+  content: "\3e";
+}
+.icon.star:before {
+  content: "\2605";
+}
+.icon.comment:before {
+  content: "\2b2c";
+}
+.icon.arrow:before {
+  content: "\25bd";
+}
+.icon.minus:before {
+  content: "\2d";
+}
+.icon.arrow-2:before {
+  content: "\25b3";
+}
+.icon.feed:before {
+  content: "\72";
+}
+.icon.checkmark:before {
+  content: "\2714";
+}
+.icon.mail:before {
+  content: "\2709";
+}
+.icon.pencil:before {
+  content: "\2f";
+}
+.icon.search:before {
+  content: "\26b2";
+}
+.icon.export:before {
+  content: "\2924";
+}
+.icon.pin:before {
+  content: "\2199";
+}
+.icon.reply:before {
+  content: "\3c";
+}
+.icon.flag:before {
+  content: "\2a";
+}
+.icon.cog:before {
+  content: "\23e3";
+}
+.icon.proceed:before {
+  content: "\2192";
+}
+.icon.thread:before {
+  content: "\268f";
+}
+.icon.disqus:before {
+  content: "\64";
+}
+.icon.comment-2:before {
+  content: "\63";
+}
+.icon.discovery:before {
+  content: "\2604";
+}
+.icon.reply-2:before {
+  content: "\2b11";
+}
+.icon.location:before {
+  content: "\2726";
+}
+.icon.star-2:before {
+  content: "\272d";
+}
+.icon.expand:before {
+  content: "\2927";
+}
+.icon.camera:before {
+  content: "\233c";
+}
+.icon.pencil-2:before {
+  content: "\270e";
+}
+.icon.pause:before {
+  content: "\27";
+}
+.icon.pause-2:before {
+  content: "\24";
+}
+.icon.play:before {
+  content: "\26";
+}
+.icon.play-rounded:before {
+  content: "\28";
+}
+.icon.plus:before {
+  content: "\2b";
+}
+.icon.pause-2-2:before {
+  content: "\2306";
+}
+.icon.checkmark-2:before {
+  content: "\2713";
+}
+.icon.share-big:before {
+  content: "\2350";
+}
+.icon.play-2:before {
+  content: "\2794";
+}
+.icon.minus-2:before {
+  content: "\25ac";
+}
+.icon.plus-2:before {
+  content: "\271a";
+}
