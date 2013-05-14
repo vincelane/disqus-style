@@ -1533,15 +1533,15 @@ fieldset[disabled] .btn {
 }
 .btn-default {
   color: #ffffff;
-  background-color: #a7a9aa;
-  border-color: #a7a9aa;
+  background-color: #879096;
+  border-color: #879096;
 }
 .btn-default:hover,
 .btn-default:focus,
 .btn-default:active,
 .btn-default.active {
-  background-color: #9a9c9d;
-  border-color: #8d9091;
+  background-color: #79848a;
+  border-color: #6d777d;
 }
 .btn-default.disabled:hover,
 .btn-default[disabled]:hover,
@@ -1555,8 +1555,8 @@ fieldset[disabled] .btn-default:active,
 .btn-default.disabled.active,
 .btn-default[disabled].active,
 fieldset[disabled] .btn-default.active {
-  background-color: #a7a9aa;
-  border-color: #a7a9aa;
+  background-color: #879096;
+  border-color: #879096;
 }
 .btn-primary {
   color: #ffffff;
@@ -1587,15 +1587,15 @@ fieldset[disabled] .btn-primary.active {
 }
 .btn-warning {
   color: #ffffff;
-  background-color: #f0ad4e;
-  border-color: #f0ad4e;
+  background-color: #fe2d46;
+  border-color: #fe2d46;
 }
 .btn-warning:hover,
 .btn-warning:focus,
 .btn-warning:active,
 .btn-warning.active {
-  background-color: #eea236;
-  border-color: #ec971f;
+  background-color: #fe1430;
+  border-color: #f7011f;
 }
 .btn-warning.disabled:hover,
 .btn-warning[disabled]:hover,
@@ -1609,20 +1609,20 @@ fieldset[disabled] .btn-warning:active,
 .btn-warning.disabled.active,
 .btn-warning[disabled].active,
 fieldset[disabled] .btn-warning.active {
-  background-color: #f0ad4e;
-  border-color: #f0ad4e;
+  background-color: #fe2d46;
+  border-color: #fe2d46;
 }
 .btn-danger {
   color: #ffffff;
-  background-color: #d9534f;
-  border-color: #d9534f;
+  background-color: #ff632e;
+  border-color: #ff632e;
 }
 .btn-danger:hover,
 .btn-danger:focus,
 .btn-danger:active,
 .btn-danger.active {
-  background-color: #d43f3a;
-  border-color: #c9302c;
+  background-color: #ff5015;
+  border-color: #fa3f00;
 }
 .btn-danger.disabled:hover,
 .btn-danger[disabled]:hover,
@@ -1636,20 +1636,20 @@ fieldset[disabled] .btn-danger:active,
 .btn-danger.disabled.active,
 .btn-danger[disabled].active,
 fieldset[disabled] .btn-danger.active {
-  background-color: #d9534f;
-  border-color: #d9534f;
+  background-color: #ff632e;
+  border-color: #ff632e;
 }
 .btn-success {
   color: #ffffff;
-  background-color: #5cb85c;
-  border-color: #5cb85c;
+  background-color: #4bad00;
+  border-color: #4bad00;
 }
 .btn-success:hover,
 .btn-success:focus,
 .btn-success:active,
 .btn-success.active {
-  background-color: #4cae4c;
-  border-color: #449d44;
+  background-color: #409400;
+  border-color: #357a00;
 }
 .btn-success.disabled:hover,
 .btn-success[disabled]:hover,
@@ -1663,20 +1663,20 @@ fieldset[disabled] .btn-success:active,
 .btn-success.disabled.active,
 .btn-success[disabled].active,
 fieldset[disabled] .btn-success.active {
-  background-color: #5cb85c;
-  border-color: #5cb85c;
+  background-color: #4bad00;
+  border-color: #4bad00;
 }
 .btn-info {
   color: #ffffff;
-  background-color: #5bc0de;
-  border-color: #5bc0de;
+  background-color: #ffc62e;
+  border-color: #ffc62e;
 }
 .btn-info:hover,
 .btn-info:focus,
 .btn-info:active,
 .btn-info.active {
-  background-color: #46b8da;
-  border-color: #31b0d5;
+  background-color: #ffbf15;
+  border-color: #fab600;
 }
 .btn-info.disabled:hover,
 .btn-info[disabled]:hover,
@@ -1690,8 +1690,8 @@ fieldset[disabled] .btn-info:active,
 .btn-info.disabled.active,
 .btn-info[disabled].active,
 fieldset[disabled] .btn-info.active {
-  background-color: #5bc0de;
-  border-color: #5bc0de;
+  background-color: #ffc62e;
+  border-color: #ffc62e;
 }
 .btn-link,
 .btn-link:active,
@@ -3396,32 +3396,32 @@ a.thumbnail:focus {
   background-color: #b4babd;
 }
 .label-danger {
-  background-color: #d9534f;
+  background-color: #ff632e;
 }
 .label-danger[href]:hover,
 .label-danger[href]:focus {
-  background-color: #c9302c;
+  background-color: #fa3f00;
 }
 .label-success {
-  background-color: #5cb85c;
+  background-color: #4bad00;
 }
 .label-success[href]:hover,
 .label-success[href]:focus {
-  background-color: #449d44;
+  background-color: #357a00;
 }
 .label-warning {
-  background-color: #f0ad4e;
+  background-color: #fe2d46;
 }
 .label-warning[href]:hover,
 .label-warning[href]:focus {
-  background-color: #ec971f;
+  background-color: #f7011f;
 }
 .label-info {
-  background-color: #5bc0de;
+  background-color: #ffc62e;
 }
 .label-info[href]:hover,
 .label-info[href]:focus {
-  background-color: #31b0d5;
+  background-color: #fab600;
 }
 .badge {
   display: inline-block;
@@ -3545,40 +3545,40 @@ a.list-group-item.active > .badge,
   animation: progress-bar-stripes 2s linear infinite;
 }
 .progress-bar-danger {
-  background-color: #d9534f;
+  background-color: #ff632e;
 }
 .progress-striped .progress-bar-danger {
-  background-color: #d9534f;
+  background-color: #ff632e;
   background-image: -webkit-gradient(linear, 0 100%, 100% 0, color-stop(0.25, rgba(255, 255, 255, 0.15)), color-stop(0.25, transparent), color-stop(0.5, transparent), color-stop(0.5, rgba(255, 255, 255, 0.15)), color-stop(0.75, rgba(255, 255, 255, 0.15)), color-stop(0.75, transparent), to(transparent));
   background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
   background-image: -moz-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
   background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
 }
 .progress-bar-success {
-  background-color: #5cb85c;
+  background-color: #4bad00;
 }
 .progress-striped .progress-bar-success {
-  background-color: #5cb85c;
+  background-color: #4bad00;
   background-image: -webkit-gradient(linear, 0 100%, 100% 0, color-stop(0.25, rgba(255, 255, 255, 0.15)), color-stop(0.25, transparent), color-stop(0.5, transparent), color-stop(0.5, rgba(255, 255, 255, 0.15)), color-stop(0.75, rgba(255, 255, 255, 0.15)), color-stop(0.75, transparent), to(transparent));
   background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
   background-image: -moz-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
   background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
 }
 .progress-bar-warning {
-  background-color: #f0ad4e;
+  background-color: #fe2d46;
 }
 .progress-striped .progress-bar-warning {
-  background-color: #f0ad4e;
+  background-color: #fe2d46;
   background-image: -webkit-gradient(linear, 0 100%, 100% 0, color-stop(0.25, rgba(255, 255, 255, 0.15)), color-stop(0.25, transparent), color-stop(0.5, transparent), color-stop(0.5, rgba(255, 255, 255, 0.15)), color-stop(0.75, rgba(255, 255, 255, 0.15)), color-stop(0.75, transparent), to(transparent));
   background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
   background-image: -moz-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
   background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
 }
 .progress-bar-info {
-  background-color: #5bc0de;
+  background-color: #ffc62e;
 }
 .progress-striped .progress-bar-info {
-  background-color: #5bc0de;
+  background-color: #ffc62e;
   background-image: -webkit-gradient(linear, 0 100%, 100% 0, color-stop(0.25, rgba(255, 255, 255, 0.15)), color-stop(0.25, transparent), color-stop(0.5, transparent), color-stop(0.5, rgba(255, 255, 255, 0.15)), color-stop(0.75, rgba(255, 255, 255, 0.15)), color-stop(0.75, transparent), to(transparent));
   background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
   background-image: -moz-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
