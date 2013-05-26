@@ -6,70 +6,16 @@
 @import "../disqus-core/disqus-variables.less";
 @import "../disqus-core/mixins.less";
 
-// Navigation
-.fixed-sidebar {
-	&.affix {
-		top: 20px;
-	}
+.page-header {
+	color: white;
+	background: @gray-dark;
+	margin: 0;
+	padding: 40px 0;
 }
 
 // Adds padding to align flush with content
 .local-nav {
 	margin-top: 3.5em;
-}
-
-// Global nav // move me!
-.global-nav {
-	padding: 10px 0;
-	background: none;
-	border-bottom: 2px solid @gray-lighter;
-	.navbar-brand {
-		margin-right: 2em;
-		padding-top: .5em;
-		padding-bottom: 0;
-		img {
-			width: 102px;
-			height: 17;
-		}
-	}
-	ul {
-		margin: 0 0 -12px;
-		li {
-			a {
-				margin: 0;
-				padding: 10px 1em 20px;
-				color: @gray;
-				font-weight: bold;
-				.transition(.2s all);
-				&:hover {
-					background-color: none;
-				}
-			}
-			&.active {
-				a {
-					background: none;
-					border-bottom: 2px solid @blue;
-					&:hover {
-						background: none;
-					}
-				}
-			}
-		}
-	}
-}
-
-// Local nav (sidebar) // move me!
-.local-nav {
-	.nav-stacked {
-		> li {
-			> a {
-				padding: .9em 1.5em;
-				line-height: 1em;
-				.border-radius(200px);
-				.transition(.15s all);
-			}
-		}
-	}
 }
 
 // Color swatches

@@ -1,0 +1,77 @@
+/*!
+ * Header & Navigation
+ */
+
+// Core variables and mixins
+@import "../disqus-core/disqus-variables.less";
+@import "../disqus-core/mixins.less";
+
+ // Global nav
+.global-nav {
+	background: rgba(255, 255, 255, .98);
+	margin: 0;
+	//border-bottom: 2px solid @gray-lighter;
+	.navbar-brand {
+		margin-right: 3em;
+		padding-left: 0;
+		padding-right: 0;
+		img {
+			width: 102px;
+			height: 17;
+		}
+	}
+	ul {
+		margin: 0;
+		li {
+			a {
+				margin: 0;
+				padding: 50px 2em;
+				color: @gray;
+				font-weight: bold;
+				.transition(.2s all);
+				&:hover {
+					background-color: none;
+				}
+			}
+			&.active {
+				a {
+					background: none;
+					//border-bottom: 2px solid @blue;
+					&:hover {
+						background: none;
+					}
+				}
+			}
+		}
+	}
+}
+
+// Short header
+.global-nav {
+	&.short {
+		ul li a {
+			padding-top: 20px;
+			padding-bottom: 20px;
+		}
+	}
+}
+
+// Local nav (sidebar)
+.fixed-sidebar {
+	&.affix {
+		top: 20px;
+	}
+}
+
+.local-nav {
+	.nav-stacked {
+		> li {
+			> a {
+				padding: .9em 1.5em;
+				line-height: 1em;
+				.border-radius(200px);
+				.transition(.15s all);
+			}
+		}
+	}
+}

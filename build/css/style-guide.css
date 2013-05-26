@@ -1,57 +1,14 @@
 /*!
  * Style-guide
  */
-.fixed-sidebar.affix {
-  top: 20px;
+.page-header {
+  color: white;
+  background: #646e74;
+  margin: 0;
+  padding: 40px 0;
 }
 .local-nav {
   margin-top: 3.5em;
-}
-.global-nav {
-  padding: 10px 0;
-  background: none;
-  border-bottom: 2px solid #eaeced;
-}
-.global-nav .navbar-brand {
-  margin-right: 2em;
-  padding-top: .5em;
-  padding-bottom: 0;
-}
-.global-nav .navbar-brand img {
-  width: 102px;
-  height: 17;
-}
-.global-nav ul {
-  margin: 0 0 -12px;
-}
-.global-nav ul li a {
-  margin: 0;
-  padding: 10px 1em 20px;
-  color: #879096;
-  font-weight: bold;
-  -webkit-transition: 0.2s all;
-  -moz-transition: 0.2s all;
-  -o-transition: 0.2s all;
-  transition: 0.2s all;
-}
-.global-nav ul li a:hover {
-  background-color: none;
-}
-.global-nav ul li.active a {
-  background: none;
-  border-bottom: 2px solid #2e9fff;
-}
-.global-nav ul li.active a:hover {
-  background: none;
-}
-.local-nav .nav-stacked > li > a {
-  padding: .9em 1.5em;
-  line-height: 1em;
-  border-radius: 200px;
-  -webkit-transition: 0.15s all;
-  -moz-transition: 0.15s all;
-  -o-transition: 0.15s all;
-  transition: 0.15s all;
 }
 .color-list {
   list-style: none;
