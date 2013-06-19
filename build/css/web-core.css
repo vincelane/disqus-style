@@ -2322,6 +2322,100 @@ input[type="reset"].btn-block,
 input[type="button"].btn-block {
   width: 100%;
 }
+.btn.follow-btn {
+  overflow: hidden;
+  position: relative;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 4px 12px;
+  line-height: 20px;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  transition: all 0.2s;
+}
+.btn.follow-btn .icon-checkmark {
+  display: block;
+  position: absolute;
+  left: 9px;
+  top: 15px;
+  transition-delay: .6s;
+  -moz-transition-delay: .6s;
+  -webkit-transition-delay: .6s;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  transition: all 0.2s;
+  opacity: 0;
+  filter: alpha(opacity=0);
+}
+.btn.follow-btn.btn-small {
+  font-size: 12px;
+  padding: 2px 9px 1px;
+}
+.btn.follow-btn.btn-small.following {
+  padding-left: 24px;
+}
+.btn.follow-btn.btn-small.following .icon-checkmark {
+  top: 3px;
+  left: 7px;
+}
+.btn.follow-btn span {
+  display: block;
+}
+.btn.follow-btn .icon-plus {
+  /* mobile only */
+
+  display: none;
+}
+.btn.follow-btn .following-text {
+  opacity: 0;
+  filter: alpha(opacity=0);
+  height: 0;
+}
+.btn.follow-btn.following {
+  background: #8fc847 !important;
+  padding-left: 30px;
+}
+.btn.follow-btn.following .follow-text {
+  opacity: 0;
+  filter: alpha(opacity=0);
+  height: 0;
+}
+.btn.follow-btn.following .following-text {
+  opacity: 100;
+  filter: alpha(opacity=10000);
+  height: auto;
+}
+.btn.follow-btn.following .icon-checkmark {
+  top: 6px;
+  opacity: 100;
+  filter: alpha(opacity=10000);
+}
+@media (max-width: 480px) {
+  .btn.follow-btn {
+    font-size: 13px;
+    padding: 4px 9px;
+  }
+  .btn.follow-btn .icon-plus {
+    display: inline;
+  }
+  .btn.follow-btn.following {
+    padding-left: 9px;
+  }
+  .btn.follow-btn.following .icon-checkmark {
+    display: inline;
+    position: static;
+  }
+  .btn.follow-btn.following .icon-plus {
+    display: none;
+  }
+  .btn.follow-btn .follow-text,
+  .btn.follow-btn .following-text {
+    content: "\e005";
+    display: none !important;
+  }
+}
 .fade {
   opacity: 0;
   -webkit-transition: opacity 0.15s linear;

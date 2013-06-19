@@ -1,1 +1,94 @@
 @import "bootstrap-dont_touch/buttons.less";
+
+
+// Follow button
+
+.btn.follow-btn {
+    overflow: hidden;
+    position: relative;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 4px 12px;
+    line-height: 20px;
+    .transition(all .2s);
+
+    .icon-checkmark {
+        display: block;
+        position: absolute;
+        left: 9px;
+        top: 15px;
+        transition-delay: .6s;
+        -moz-transition-delay: .6s;
+        -webkit-transition-delay: .6s;
+        .transition(all .2s);
+        .opacity(0);
+    }
+
+    &.btn-small {
+        font-size: 12px;
+        padding: 2px 9px 1px;
+        &.following {
+            padding-left: 24px;
+            .icon-checkmark {
+                top: 3px;
+                left: 7px;
+            }
+        }
+    }
+
+    span {
+        display: block;
+    }
+
+    .icon-plus { /* mobile only */
+        display: none;
+    }
+
+    .following-text {
+        .opacity(0);
+        height: 0;
+    }
+
+    &.following {
+        background: #8fc847 !important;
+        padding-left: 30px;
+        .follow-text {
+            .opacity(0);
+            height: 0;
+        }
+        .following-text {
+            .opacity(100);
+            height: auto;
+        }
+        .icon-checkmark {
+            top: 6px;
+            .opacity(100);
+        }
+    }
+}
+
+@media (max-width: 480px) {
+    .btn.follow-btn {
+        font-size: 13px;
+        padding: 4px 9px;
+
+        .icon-plus {
+            display: inline;
+        }
+        &.following {
+            padding-left: 9px;
+            .icon-checkmark {
+                display: inline;
+                position: static;
+            }
+            .icon-plus {
+                display: none;
+            }
+        }
+
+        .follow-text, .following-text {
+            content: "\e005";
+            display: none !important;
+        }
+    }
+}
